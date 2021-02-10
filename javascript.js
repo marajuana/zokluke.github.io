@@ -1,5 +1,3 @@
-// /public/javascript.js
-
 // Get the current username from the cookies
 var user = cookie.get('user');
 if (!user) {
@@ -45,4 +43,3 @@ $('form').submit(function (e) {
   e.target.reset();
   $(e.target).find('input').focus();
 });
-
